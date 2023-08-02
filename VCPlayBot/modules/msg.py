@@ -1,21 +1,21 @@
-import os
+ import os
 from VCPlayBot.config import SOURCE_CODE
 from VCPlayBot.config import ASSISTANT_NAME
 from VCPlayBot.config import PROJECT_NAME
 from VCPlayBot.config import SUPPORT_GROUP
 from VCPlayBot.config import UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info.\n\n Join @Girls_And_Boys_Chatting"
+      START_MSG = "**𝙷𝚎𝚕𝚕𝚘𝚊𝚠 👋 [{}](tg://user?id={})!**\n\n🤖 𝙸 𝚊𝚖 𝚊𝚗 𝚊𝚍𝚟𝚊𝚗𝚌𝚎𝚍 𝚋𝚘𝚝 𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝚏𝚘𝚛 𝚙𝚕𝚊𝚢𝚒𝚗𝚐 𝚖𝚞𝚜𝚒𝚌 𝚒𝚗 𝚝𝚑𝚎 𝚟𝚘𝚒𝚌𝚎 𝚌𝚑𝚊𝚝𝚜 𝚘𝚏 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝙶𝚛𝚘𝚞𝚙𝚜 & 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜.\n\n✅ 𝚂𝚎𝚗𝚍 𝚖𝚎 /𝚑𝚎𝚕𝚙 𝚏𝚘𝚛 𝚖𝚘𝚛𝚎 𝚒𝚗𝚏𝚘.\n\n 𝙹𝚘𝚒𝚗 @Cineflixlk"
       HELP_MSG = [
         ".",
 f"""
-**Hey 👋 Welcome back to {PROJECT_NAME}
+**𝙷𝚎𝚕𝚕𝚘𝚊𝚠 👋 𝚆𝚎𝚕𝚌𝚘𝚖𝚎 𝙱𝚊𝚌𝚔 𝚝𝚘 {PROJECT_NAME}
 
-⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
+⚪️ {PROJECT_NAME} 𝚌𝚊𝚗 𝚙𝚕𝚊𝚢 𝚖𝚞𝚜𝚒𝚌 𝚒𝚗 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙'𝚜 𝚟𝚘𝚒𝚌𝚎 𝚌𝚑𝚊𝚝 𝚊𝚜 𝚠𝚎𝚕𝚕 𝚊𝚜 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 𝚟𝚘𝚒𝚌𝚎 𝚌𝚑𝚊𝚝𝚜
 
 ⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
 
-Join @Girls_And_Boys_Chatting
+Join @Cineflixlk
 """,
 
 f"""
@@ -54,14 +54,14 @@ f"""
 - /current: Shows the current Playing track
 - /playlist: Shows playlist
 
-*Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
-Join @Girls_And_Boys_Chatting
+*𝙿𝚕𝚊𝚢𝚎𝚛 𝚌𝚖𝚍 𝚊𝚗𝚍 𝚊𝚕𝚕 𝚘𝚝𝚑𝚎𝚛 𝚌𝚖𝚍𝚜 𝚎𝚡𝚌𝚎𝚙𝚝 /𝚙𝚕𝚊𝚢, /𝚌𝚞𝚛𝚛𝚎𝚗𝚝  𝚊𝚗𝚍 /𝚙𝚕𝚊𝚢𝚕𝚒𝚜𝚝  𝚊𝚛𝚎 𝚘𝚗𝚕𝚢 𝚏𝚘𝚛 𝚊𝚍𝚖𝚒𝚗𝚜 𝚘𝚏 𝚝𝚑𝚎 𝚐𝚛𝚘𝚞𝚙.
+𝙹𝚘𝚒𝚗 @Cineflixlk
 """,
 
 f"""
 **=>> Channel Music Play 🛠**
 
-⚪️ For linked group admins only:
+⚪️ 𝙵𝚘𝚛 𝚕𝚒𝚗𝚔𝚎𝚍 𝚐𝚛𝚘𝚞𝚙 𝚊𝚍𝚖𝚒𝚗𝚜 𝚘𝚗𝚕𝚢:
 
 - /cplay [song name] - play song you requested
 - /csplay [song name] - play song you requested via jio saavn
@@ -83,7 +83,7 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 3) Add bot as Channel admin with full perms
 4) Add @{ASSISTANT_NAME} to the channel as an admin.
 5) Simply send commands in your group. (remember to use /ytplay instead /play)
-Join @Girls_And_Boys_Chatting
+Join @Cineflixlk
 """,
 
 f"""
@@ -92,7 +92,7 @@ f"""
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
-Join @Girls_And_Boys_Chatting
+Join @Cineflixlk
 """,
 f"""
 **=>> Song Download 🎸**
@@ -106,7 +106,7 @@ f"""
 
 - /search [song name]: Search youtube for songs
 - /lyrics [song name]: Get song lyrics
-Join @Girls_And_Boys_Chatting
+Join @Cineflixlk
 """,
 
 f"""
@@ -116,6 +116,6 @@ f"""
  - /broadcast <reply to message> - globally brodcast replied message to all chats
  - /pmpermit [on/off] - enable/disable pmpermit message
 *Sudo Users can execute any command in any groups
-Join @Girls_And_Boys_Chatting
+Join @Cineflixlk
 """
       ]
