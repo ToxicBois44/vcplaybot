@@ -65,7 +65,7 @@ async def start_(client: Client, message: Message):
                         "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/QueenArzoo/VCPlayBot"
+                        "✘ ℂ𝕚𝕟𝕖 𝔽𝕝𝕚𝕩 𝔽𝕚𝕝𝕞𝕤 𝔽𝕚𝕟𝕕𝕖𝕣 ✘", url="https://t.me/Cineflixlk"
                     )
                 ]
             ]
