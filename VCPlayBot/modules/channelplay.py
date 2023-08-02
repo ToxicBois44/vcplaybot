@@ -398,15 +398,15 @@ async def play(_, message: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add assistant to your Group and try again</b>",
+                        f"<b>🔴 𝙵𝚕𝚘𝚘𝚍 𝚆𝚊𝚒𝚝 𝙴𝚛𝚛𝚘𝚛 🔴 \nUser {user.first_name} 𝚌𝚘𝚞𝚕𝚍𝚗'𝚝 𝚓𝚘𝚒𝚗 𝚢𝚘𝚞𝚛 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 𝚍𝚞𝚎 𝚝𝚘 𝚑𝚎𝚊𝚟𝚢 𝚛𝚎𝚚𝚞𝚎𝚜𝚝𝚜 𝚏𝚘𝚛 𝚞𝚜𝚎𝚛𝚋𝚘𝚝! 𝙼𝚊𝚔𝚎 𝚜𝚞𝚛𝚎 𝚞𝚜𝚎𝚛 𝚒𝚜 𝚗𝚘𝚝 𝚋𝚊𝚗𝚗𝚎𝚍 𝚒𝚗 𝚐𝚛𝚘𝚞𝚙."
+                        "\n\nOr 𝚖𝚊𝚗𝚞𝚊𝚕𝚕𝚢 𝚊𝚍𝚍 𝚊𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝 𝚝𝚘 𝚢𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 𝚊𝚗𝚍 𝚝𝚛𝚢 𝚊𝚐𝚊𝚒𝚗</b>",
                     )
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name} Userbot not in this chat, Ask channel admin to send /play command for first time or add {user.first_name} manually</i>"
+            f"<i> {user.first_name} 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚗𝚘𝚝 𝚒𝚗 𝚝𝚑𝚒𝚜 𝚌𝚑𝚊𝚝, 𝙰𝚜𝚔 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 𝚊𝚍𝚖𝚒𝚗 𝚝𝚘 𝚜𝚎𝚗𝚍 /play 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚏𝚘𝚛 𝚏𝚒𝚛𝚜𝚝 𝚝𝚒𝚖𝚎 𝚘𝚛 𝚊𝚍𝚍 {user.first_name} 𝚖𝚊𝚗𝚞𝚊𝚕𝚕𝚢</i>"
         )
         return
     message.from_user.id
