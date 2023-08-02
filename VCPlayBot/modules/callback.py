@@ -21,25 +21,25 @@ async def cbstart(_, query: CallbackQuery):
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ 𝙰𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "✘ 𝙰𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 ✘", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "❓ How to use Me", callback_data="cbhowtouse")
+                        "❓ 𝙷𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎 𝙼𝚎", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
-                         "📚 Commands", callback_data="cbcmds"
+                         "📚 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 Donate", url=f"https://t.me/{OWNER_NAME}")
+                        "💝 𝙳𝚘𝚗𝚊𝚝𝚎", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "👥 𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝙶𝚛𝚘𝚞𝚙", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "📣 𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/QuennArzoo/VCPlayBot"
+                        "☬ 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 ☬", url="https://t.me/Jonathanlk"
                     )
                 ]
             ]
@@ -51,11 +51,11 @@ async def cbstart(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbhelp"))
 async def cbhelp(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>💡 Hello there, welcome to the help menu !</b>
+        f"""<b>💡 𝙷𝚎𝚕𝚕𝚊𝚘𝚠  𝚝𝚑𝚎𝚛𝚎, 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚝𝚑𝚎 𝚑𝚎𝚕𝚙 𝚖𝚎𝚗𝚞 !</b>
 
-**in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
+**𝚒𝚗 𝚝𝚑𝚒𝚜 𝚖𝚎𝚗𝚞 𝚢𝚘𝚞 𝚌𝚊𝚗 𝚘𝚙𝚎𝚗 𝚜𝚎𝚟𝚎𝚛𝚊𝚕 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚖𝚎𝚗𝚞𝚜, 𝚒𝚗 𝚎𝚊𝚌𝚑 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚖𝚎𝚗𝚞 𝚝𝚑𝚎𝚛𝚎 𝚒𝚜 𝚊𝚕𝚜𝚘 𝚊 𝚋𝚛𝚒𝚎𝚏 𝚎𝚡𝚙𝚕𝚊𝚗𝚊𝚝𝚒𝚘𝚗 𝚘𝚏 𝚎𝚊𝚌𝚑 𝚌𝚘𝚖𝚖𝚊𝚗𝚍**
 
-⚡ __Powered by {BOT_NAME} A.I__""",
+⚡ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -348,9 +348,9 @@ async def cbgtools(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>this is the feature information :</b>
 
-💡 **Feature:** this feature contains functions that can ban, mute, unban, unmute users in your group.
+💡 **Feature:** 𝚝𝚑𝚒𝚜 𝚏𝚎𝚊𝚝𝚞𝚛𝚎 𝚌𝚘𝚗𝚝𝚊𝚒𝚗𝚜 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚜 𝚝𝚑𝚊𝚝 𝚌𝚊𝚗 𝚋𝚊𝚗, 𝚖𝚞𝚝𝚎, 𝚞𝚗𝚋𝚊𝚗, 𝚞𝚗𝚖𝚞𝚝𝚎 𝚞𝚜𝚎𝚛𝚜 𝚒𝚗 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙.
 
-and you can also set a time for the ban and mute penalties for members in your group so that they can be released from the punishment with the specified time.
+𝚊𝚗𝚍 𝚢𝚘𝚞 𝚌𝚊𝚗 𝚊𝚕𝚜𝚘 𝚜𝚎𝚝 𝚊 𝚝𝚒𝚖𝚎 𝚏𝚘𝚛 𝚝𝚑𝚎 𝚋𝚊𝚗 𝚊𝚗𝚍 𝚖𝚞𝚝𝚎 𝚙𝚎𝚗𝚊𝚕𝚝𝚒𝚎𝚜 𝚏𝚘𝚛 𝚖𝚎𝚖𝚋𝚎𝚛𝚜 𝚒𝚗 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚜𝚘 𝚝𝚑𝚊𝚝 𝚝𝚑𝚎𝚢 𝚌𝚊𝚗 𝚋𝚎 𝚛𝚎𝚕𝚎𝚊𝚜𝚎𝚍 𝚏𝚛𝚘𝚖 𝚝𝚑𝚎 𝚙𝚞𝚗𝚒𝚜𝚑𝚖𝚎𝚗𝚝 𝚠𝚒𝚝𝚑 𝚝𝚑𝚎 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚎𝚍 𝚝𝚒𝚖𝚎.
 
 ❔ **usage:**
 
@@ -412,11 +412,11 @@ async def cbdelcmds(_, query: CallbackQuery):
 @Client.on_callback_query(filters.regex("cbcmds"))
 async def cbhelps(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>💡 Hello there, welcome to the help menu !</b>
+        f"""<b>💡 𝙷𝚎𝚕𝚕𝚊𝚘𝚠  𝚝𝚑𝚎𝚛𝚎, 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚝𝚑𝚎 𝚑𝚎𝚕𝚙 𝚖𝚎𝚗𝚞 !</b>
 
-**in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
+**𝚒𝚗 𝚝𝚑𝚒𝚜 𝚖𝚎𝚗𝚞 𝚢𝚘𝚞 𝚌𝚊𝚗 𝚘𝚙𝚎𝚗 𝚜𝚎𝚟𝚎𝚛𝚊𝚕 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚖𝚎𝚗𝚞𝚜, 𝚒𝚗 𝚎𝚊𝚌𝚑 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚖𝚎𝚗𝚞 𝚝𝚑𝚎𝚛𝚎 𝚒𝚜 𝚊𝚕𝚜𝚘 𝚊 𝚋𝚛𝚒𝚎𝚏 𝚎𝚡𝚙𝚕𝚊𝚗𝚊𝚝𝚒𝚘𝚗 𝚘𝚏 𝚎𝚊𝚌𝚑 𝚌𝚘𝚖𝚖𝚊𝚗𝚍**
 
-⚡ __Powered by {BOT_NAME} A.I__""",
+⚡ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
