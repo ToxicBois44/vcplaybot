@@ -436,7 +436,7 @@ async def m_cb(b, cb):
                 pass
 
             await callsmusic.stop(chet_id)
-            await cb.message.edit("Successfully Left the Chat!")
+            await cb.message.edit("𝚂𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢 𝙻𝚎𝚏𝚝 𝚝𝚑𝚎 𝙲𝚑𝚊𝚝!")
         else:
             await cb.answer("Chat is not connected!", show_alert=True)
 
@@ -465,14 +465,14 @@ async def play(_, message: Message):
             if administrator == message.from_user.id:
                 if message.chat.title.startswith("Channel Music: "):
                     await lel.edit(
-                        "<b>Remember to add helper to your channel</b>",
+                        "<b>𝚁𝚎𝚖𝚎𝚖𝚋𝚎𝚛 𝚝𝚘 𝚊𝚍𝚍 𝚑𝚎𝚕𝚙𝚎𝚛 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚌𝚑𝚊𝚗𝚗𝚎𝚕</b>",
                     )
                     pass
                 try:
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>Add me as admin of yor group first</b>",
+                        "<b>𝙰𝚍𝚍 𝚖𝚎 𝚊𝚜 𝚊𝚍𝚖𝚒𝚗 𝚘𝚏 𝚢𝚘𝚛 𝚐𝚛𝚘𝚞𝚙 𝚏𝚒𝚛𝚜𝚝</b>",
                     )
                     return
 
@@ -482,7 +482,7 @@ async def play(_, message: Message):
                         message.chat.id, "I joined this group for playing music in VC"
                     )
                     await lel.edit(
-                        "<b>helper userbot joined your chat</b>",
+                        "<b>𝚑𝚎𝚕𝚙𝚎𝚛 𝚞𝚜𝚎𝚛𝚋𝚘𝚝 𝚓𝚘𝚒𝚗𝚎𝚍 𝚢𝚘𝚞𝚛 𝚌𝚑𝚊𝚝</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -490,15 +490,15 @@ async def play(_, message: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add assistant to your Group and try again manually request here @AwesomeSupport with your group link</b>",
+                        f"<b>🔴 𝙵𝚕𝚘𝚘𝚍 𝚆𝚊𝚒𝚝 𝙴𝚛𝚛𝚘𝚛 🔴 \nUser {user.first_name} 𝚌𝚘𝚞𝚕𝚍𝚗'𝚝 𝚓𝚘𝚒𝚗 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚍𝚞𝚎 𝚝𝚘 𝚑𝚎𝚊𝚟𝚢 𝚛𝚎𝚚𝚞𝚎𝚜𝚝𝚜 𝚏𝚘𝚛 𝚞𝚜𝚎𝚛𝚋𝚘𝚝! 𝙼𝚊𝚔𝚎 𝚜𝚞𝚛𝚎 𝚞𝚜𝚎𝚛 𝚒𝚜 𝚗𝚘𝚝 𝚋𝚊𝚗𝚗𝚎𝚍 𝚒𝚗 𝚐𝚛𝚘𝚞𝚙."
+                        "\n\nOr 𝚖𝚊𝚗𝚞𝚊𝚕𝚕𝚢 𝚊𝚍𝚍 𝚊𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝 𝚝𝚘 𝚢𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 𝚊𝚗𝚍 𝚝𝚛𝚢 𝚊𝚐𝚊𝚒𝚗 𝚖𝚊𝚗𝚞𝚊𝚕𝚕𝚢 𝚛𝚎𝚚𝚞𝚎𝚜𝚝 𝚑𝚎𝚛𝚎 @Cineflixlk 𝚠𝚒𝚝𝚑 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚕𝚒𝚗𝚔</b>",
                     )
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name} Userbot not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually request here @AwesomeSupport with your group link</i>"
+            f"<i> {user.first_name} 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚗𝚘𝚝 𝚒𝚗 𝚝𝚑𝚒𝚜 𝚌𝚑𝚊𝚝, 𝙰𝚜𝚔 𝚊𝚍𝚖𝚒𝚗 𝚝𝚘 𝚜𝚎𝚗𝚍 /play 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚏𝚘𝚛 𝚏𝚒𝚛𝚜𝚝 𝚝𝚒𝚖𝚎 𝚘𝚛 𝚊𝚍𝚍 {user.first_name} 𝚖𝚊𝚗𝚞𝚊𝚕𝚕𝚢 𝚛𝚎𝚚𝚞𝚎𝚜𝚝 𝚑𝚎𝚛𝚎 @Cineflixlk 𝚠𝚒𝚝𝚑 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚕𝚒𝚗𝚔</i>"
         )
         return
     text_links=None
@@ -546,7 +546,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumb_name = "https://telegra.ph/file/50dc2040792f4edd7f687.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -729,12 +729,12 @@ async def play(_, message: Message):
         try:
             await callsmusic.set_stream(chat_id, file_path)
         except:
-            message.reply("Group Call is not connected or I can't join it")
+            message.reply("𝙶𝚛𝚘𝚞𝚙 𝙲𝚊𝚕𝚕 𝚒𝚜 𝚗𝚘𝚝 𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍 𝚘𝚛 𝙸 𝚌𝚊𝚗'𝚝 𝚓𝚘𝚒𝚗 𝚒𝚝")
             return
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="▶️ <b>Playing</b> here the song requested by {} via Youtube Music 😎".format(
+            caption="▶️ <b>Playing</b> 𝚑𝚎𝚛𝚎 𝚝𝚑𝚎 𝚜𝚘𝚗𝚐 𝚛𝚎𝚚𝚞𝚎𝚜𝚝𝚎𝚍 𝚋𝚢 {} 𝚟𝚒𝚊 𝚈𝚘𝚞𝚝𝚞𝚋𝚎 𝙼𝚞𝚜𝚒𝚌 😎".format(
                 message.from_user.mention()
             ),
         )
@@ -765,24 +765,24 @@ async def ytplay(_, message: Message):
             if administrator == message.from_user.id:
                 if message.chat.title.startswith("Channel Music: "):
                     await lel.edit(
-                        "<b>Remember to add helper to your channel</b>",
+                        "<b>𝚁𝚎𝚖𝚎𝚖𝚋𝚎𝚛 𝚝𝚘 𝚊𝚍𝚍 𝚑𝚎𝚕𝚙𝚎𝚛 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚌𝚑𝚊𝚗𝚗𝚎𝚕</b>",
                     )
                     pass
                 try:
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>Add me as admin of yor group first</b>",
+                        "<b>𝙰𝚍𝚍 𝚖𝚎 𝚊𝚜 𝚊𝚍𝚖𝚒𝚗 𝚘𝚏 𝚢𝚘𝚛 𝚐𝚛𝚘𝚞𝚙 𝚏𝚒𝚛𝚜𝚝</b>",
                     )
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "I joined this group for playing music in VC"
+                        message.chat.id, "𝙸 𝚓𝚘𝚒𝚗𝚎𝚍 𝚝𝚑𝚒𝚜 𝚐𝚛𝚘𝚞𝚙 𝚏𝚘𝚛 𝚙𝚕𝚊𝚢𝚒𝚗𝚐 𝚖𝚞𝚜𝚒𝚌 𝚒𝚗 𝚅𝙲"
                     )
                     await lel.edit(
-                        "<b>helper userbot joined your chat</b>",
+                        "<b>𝚑𝚎𝚕𝚙𝚎𝚛 𝚞𝚜𝚎𝚛𝚋𝚘𝚝 𝚓𝚘𝚒𝚗𝚎𝚍 𝚢𝚘𝚞𝚛 𝚌𝚑𝚊𝚝</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -790,8 +790,8 @@ async def ytplay(_, message: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add assistant to your Group and try again manually request here @AwesomeSupport with your group link</b>",
+                        f"<b>🔴 𝙵𝚕𝚘𝚘𝚍 𝚆𝚊𝚒𝚝 𝙴𝚛𝚛𝚘𝚛 🔴 \nUser {user.first_name} 𝚌𝚘𝚞𝚕𝚍𝚗'𝚝 𝚓𝚘𝚒𝚗 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚍𝚞𝚎 𝚝𝚘 𝚑𝚎𝚊𝚟𝚢 𝚛𝚎𝚚𝚞𝚎𝚜𝚝𝚜 𝚏𝚘𝚛 𝚞𝚜𝚎𝚛𝚋𝚘𝚝! 𝙼𝚊𝚔𝚎 𝚜𝚞𝚛𝚎 𝚞𝚜𝚎𝚛 𝚒𝚜 𝚗𝚘𝚝 𝚋𝚊𝚗𝚗𝚎𝚍 𝚒𝚗 𝚐𝚛𝚘𝚞𝚙."
+                        "\n\nOr 𝚖𝚊𝚗𝚞𝚊𝚕𝚕𝚢 𝚊𝚍𝚍 𝚊𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝 𝚝𝚘 𝚢𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 𝚊𝚗𝚍 𝚝𝚛𝚢 𝚊𝚐𝚊𝚒𝚗 𝚖𝚊𝚗𝚞𝚊𝚕𝚕𝚢 𝚛𝚎𝚚𝚞𝚎𝚜𝚝 𝚑𝚎𝚛𝚎 @Cineflixlk 𝚠𝚒𝚝𝚑 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚕𝚒𝚗𝚔</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -922,24 +922,24 @@ async def jiosaavn(client: Client, message_: Message):
             if administrator == message_.from_user.id:
                 if message_.chat.title.startswith("Channel Music: "):
                     await lel.edit(
-                        "<b>Remember to add helper to your channel</b>",
+                        "<b>𝚁𝚎𝚖𝚎𝚖𝚋𝚎𝚛 𝚝𝚘 𝚊𝚍𝚍 𝚑𝚎𝚕𝚙𝚎𝚛 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚌𝚑𝚊𝚗𝚗𝚎𝚕</b>",
                     )
                     pass
                 try:
                     invitelink = await client.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>Add me as admin of yor group first</b>",
+                        "<b>𝙰𝚍𝚍 𝚖𝚎 𝚊𝚜 𝚊𝚍𝚖𝚒𝚗 𝚘𝚏 𝚢𝚘𝚛 𝚐𝚛𝚘𝚞𝚙 𝚏𝚒𝚛𝚜𝚝</b>",
                     )
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message_.chat.id, "I joined this group for playing music in VC"
+                        message_.chat.id, "𝙸 𝚓𝚘𝚒𝚗𝚎𝚍 𝚝𝚑𝚒𝚜 𝚐𝚛𝚘𝚞𝚙 𝚏𝚘𝚛 𝚙𝚕𝚊𝚢𝚒𝚗𝚐 𝚖𝚞𝚜𝚒𝚌 𝚒𝚗 𝚅𝙲"
                     )
                     await lel.edit(
-                        "<b>helper userbot joined your chat</b>",
+                        "<b>𝚑𝚎𝚕𝚙𝚎𝚛 𝚞𝚜𝚎𝚛𝚋𝚘𝚝 𝚓𝚘𝚒𝚗𝚎𝚍 𝚢𝚘𝚞𝚛 𝚌𝚑𝚊𝚝</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -947,15 +947,15 @@ async def jiosaavn(client: Client, message_: Message):
                 except Exception:
                     # print(e)
                     await lel.edit(
-                        f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @VCPlayBot to your Group and try again manually request here @AwesomeSupport with your group link</b>",
+                        f"<b>🔴 𝙵𝚕𝚘𝚘𝚍 𝚆𝚊𝚒𝚝 𝙴𝚛𝚛𝚘𝚛 🔴 \nUser {user.first_name} 𝚌𝚘𝚞𝚕𝚍𝚗'𝚝 𝚓𝚘𝚒𝚗 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚍𝚞𝚎 𝚝𝚘 𝚑𝚎𝚊𝚟𝚢 𝚛𝚎𝚚𝚞𝚎𝚜𝚝𝚜 𝚏𝚘𝚛 𝚞𝚜𝚎𝚛𝚋𝚘𝚝! 𝙼𝚊𝚔𝚎 𝚜𝚞𝚛𝚎 𝚞𝚜𝚎𝚛 𝚒𝚜 𝚗𝚘𝚝 𝚋𝚊𝚗𝚗𝚎𝚍 𝚒𝚗 𝚐𝚛𝚘𝚞𝚙."
+                        "\n\nOr 𝚖𝚊𝚗𝚞𝚊𝚕𝚕𝚢 𝚊𝚍𝚍 @Toxicvc_bot 𝚘 𝚢𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 𝚊𝚗𝚍 𝚝𝚛𝚢 𝚊𝚐𝚊𝚒𝚗 𝚖𝚊𝚗𝚞𝚊𝚕𝚕𝚢 𝚛𝚎𝚚𝚞𝚎𝚜𝚝 𝚑𝚎𝚛𝚎 @Cineflixlk 𝚠𝚒𝚝𝚑 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚕𝚒𝚗𝚔</b>",
                     )
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            "<i> helper Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually request here @AwesomeSupport with your group link</i>"
+            "<i> 𝚑𝚎𝚕𝚙𝚎𝚛 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚗𝚘𝚝 𝚒𝚗 𝚝𝚑𝚒𝚜 𝚌𝚑𝚊𝚝, 𝙰𝚜𝚔 𝚊𝚍𝚖𝚒𝚗 𝚝𝚘 𝚜𝚎𝚗𝚍 /𝚙𝚕𝚊𝚢 𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚏𝚘𝚛 𝚏𝚒𝚛𝚜𝚝 𝚝𝚒𝚖𝚎 𝚘𝚛 𝚊𝚍𝚍 𝚊𝚜𝚜𝚒𝚜𝚝𝚊𝚗𝚝 𝚖𝚊𝚗𝚞𝚊𝚕𝚕𝚢 𝚛𝚎𝚚𝚞𝚎𝚜𝚝 𝚑𝚎𝚛𝚎 @Cineflixlk 𝚠𝚒𝚝𝚑 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚕𝚒𝚗𝚔</i>"
         )
         return
     requested_by = message_.from_user.first_name
